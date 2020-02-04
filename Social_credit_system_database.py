@@ -10,7 +10,8 @@
 #get_ipython().magic(u'pwd')
 #get_ipython().magic(u'cd "/Users/wayne/Dropbox/UMass Research/Social Credit System/China_SCS"')
 
-import pandas as pd
+import pandas as pd  #Pandas使用一个二维的数据结构DataFrame来表示表格式的数据，相比较于Numpy，
+#Pandas可以存储混合的数据结构，同时使用NaN来表示缺失的数据，而不用像Numpy一样要手工处理缺失的数据，并且Pandas使用轴标签来表示行和列
 import os
 import glob
 from glob import glob as gg
